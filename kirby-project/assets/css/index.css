@@ -62,6 +62,10 @@
 
 /* =====  1 Global Rules & Definitions  ===================================== */
 
+h1#search-header {
+    margin-bottom: 0;
+}
+
 ul#results {
     text-align: center;
     margin-top: 40px;
@@ -87,15 +91,16 @@ form {
 }
 
 input[type="search"] {
-    width: 200px;
+    width: 300px;
     position: relative;
     margin: 0 auto !important;
     height: 33px;
-    margin-bottom: 20px;
+    font-family: 'Chivo';
     font-size: 1.15em;
+    font-weight: bold;
     padding: 12px;
-    border-radius: 15px;
-    border: 1px solid black;
+    /* border-radius: 15px; */
+    border: 1px solid darkgrey;
 }
 
 input[type="submit"] {

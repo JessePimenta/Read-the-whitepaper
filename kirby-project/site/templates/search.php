@@ -1,5 +1,5 @@
 <?php snippet('header') ?>
-<h1>Search for a whitepaper</h1>
+<h1 id='search-header'>Search for a white paper.</h1>
 <form>
   <input type="search" name="q" value="<?php echo esc($query) ?>">
   <input type="submit" value="&#x1F50D;">

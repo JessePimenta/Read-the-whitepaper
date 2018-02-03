@@ -1,4 +1,4 @@
-Title: Read The Whitepaper.
+Title: Read the White Paper.
 
 ----
 
@@ -6,7 +6,7 @@ Intro:
 
 The most robust collection of crypto whitepapers available on the web. 
 
-We try to keep this as up to date as possible, but feel free to submit new whitepapers from projects you think we should add. 
+We try to keep this as up to date as possible, but feel free to submit new white papers from projects you think we should add. 
 new@readthewhitepaper.com
 
 
