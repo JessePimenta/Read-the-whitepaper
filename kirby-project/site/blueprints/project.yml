@@ -1,0 +1,26 @@
+title: Project
+
+files:
+  sortable: true
+
+pages: false
+
+fields:
+  title:
+    label: Title
+    type:  text
+    width: 3/4
+
+  text:
+    label: Text
+    type:  textarea
+
+  image:
+    label: Main Image
+    type:  image
+
+  tags:
+  	label: Tags
+  	type: text
+  	
+	
