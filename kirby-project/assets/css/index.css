@@ -446,8 +446,8 @@ h1 + .intro {
 }
 
 .btn:active {
-  background: #4509be;
-  border-color: #4509be;
+  background: #313131;
+  border-color: 71efac;
 }
 
 /* -----  2.3 Grid & Layout  ------------------------------------------------ */
@@ -524,12 +524,12 @@ h1 + .intro {
 }
 
 .pagination-item:hover, .pagination-item:focus {
-  background: #261e66;
+  background: #383737;
   color: #71efac;
 }
 
 .pagination-item:active {
-  background: #4509be;
+  background: #383737;
 }
 
 .pagination-item.left {
