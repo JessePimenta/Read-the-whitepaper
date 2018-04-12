@@ -19,7 +19,7 @@
 
       <div class="wrap wide">
         <h2>Latest Whitepapers</h2>
-        <?php snippet('showcase', ['limit' => 3]) ?>
+        <?php snippet('showcase', ['limit' => 100]) ?>
         <p class="projects-section-more"><a href="<?= page('projects')->url() ?>" class="btn">View All Whitepapers</a></p>
       </div>
 

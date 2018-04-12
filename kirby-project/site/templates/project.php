@@ -13,7 +13,7 @@
     <div class="text wrap">
       <?= $page->text()->kirbytext() ?>
 	      <?php if($document = $page->document()): ?>
-      <a href="<?php echo $document->url() ?>" download>Download</a>
+      <a style='text-align: center;position: relative;width: 250px;display: inherit;margin: 0 auto;' href="<?php echo $document->url() ?>" download>Download White Paper</a>
       <?php endif ?>
 
       <?php

@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 return function() {
 
@@ -21,10 +21,9 @@ return function() {
   $form->attr('autocomplete', 'off');
   $form->data('autosubmit', 'native');
   $form->style('centered');
-  
+
   $form->buttons->submit->value = l('login.button');
 
   return $form;
 
 };
-

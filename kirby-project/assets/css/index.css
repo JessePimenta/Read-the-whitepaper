@@ -105,7 +105,7 @@ input[type="search"] {
 
 input[type="submit"] {
     font-size: 1.15em;
-    background: #dcdcdc;
+    background: white;
     width: 40px;
     /* background: black; */
     margin: 0 auto;
@@ -677,7 +677,7 @@ h1 + .intro {
 /* =====  3 Site Layout  ==================================================== */
 
 html {
-  background: #dcdcdc;
+  background: white;
   color: #383737;
   font: normal 400 1.5em/1.5 "Vesper Libre", Georgia, serif;
   /* Always show the vertical scrollbar to prevent `jumps`
@@ -700,6 +700,10 @@ html {
 }
 
 @media all and (max-width: 30em) {
+
+  li.menu-item {
+    font-size: 11px;
+}
   html {
     /* We decrease the font-size a little-bit for tiny
        screens. Because this stylesheet uses relative units
@@ -712,7 +716,7 @@ body {
   /* space for sticky footer */
   margin-bottom: 4.5rem;
   font-family: Chivo;
-  background: gainsboro;
+  background: white;
 }
 
 /* ----- 3.1  Header  ------------------------------------------------------- */

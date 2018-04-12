@@ -18,7 +18,7 @@ class Upload {
   const ERROR_MISSING_FILE        = 2;
   const ERROR_UNALLOWED_OVERWRITE = 3;
   const ERROR_PARTIAL_UPLOAD      = 4;
-  const ERROR_MAX_SIZE            = 5;
+  const ERROR_MAX_SIZE            = 20;
   const ERROR_MOVE_FAILED         = 6;
   const ERROR_UNACCEPTED          = 7;
 
@@ -61,7 +61,7 @@ class Upload {
     if($source && is_int($this->options['index']) && is_array($source['name'])) {
       $allSources = $source;
       $source = array();
-      
+
       // get the correct value out of the $values array with all files
       foreach($allSources as $key => $values) {
         $source[$key] = isset($values[$this->options['index']]) ? $values[$this->options['index']] : null;
@@ -69,9 +69,9 @@ class Upload {
     }
 
     // prevent duplicate ios uploads
-    // ios automatically uploads all images as image.jpg, 
-    // which will lead to overwritten duplicates. 
-    // this dirty hack will simply add a uniqid between the 
+    // ios automatically uploads all images as image.jpg,
+    // which will lead to overwritten duplicates.
+    // this dirty hack will simply add a uniqid between the
     // name and the extension to avoid duplicates
     if($source && f::name($source['name']) == 'image' && detect::ios()) {
       $source['name'] = 'image-' . uniqid() . '.' . ltrim(f::extension($source['name']), '.');
@@ -108,7 +108,7 @@ class Upload {
 
   /**
    * Returns the maximum accepted file size
-   * 
+   *
    * @return int
    */
   public function maxSize() {
@@ -147,7 +147,7 @@ class Upload {
           $this->fail(static::ERROR_MOVE_FAILED);
         case UPLOAD_ERR_EXTENSION:
           $this->fail(static::ERROR_UNACCEPTED);
-        default: 
+        default:
           $this->fail(static::ERROR_FAILED_UPLOAD);
       }
 
