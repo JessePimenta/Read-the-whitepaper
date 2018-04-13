@@ -21,4 +21,20 @@ $(function(){
 
   });
 
+
+  // init Isotope
+  var $grid = $('.grid').isotope({
+    getSortData: {
+      name: '.name',
+      trending: '.trending',
+      category: '[data-category]',
+    }
+  });
+
+  $('.sort-by-button-group').on( 'click', 'button', function() {
+  var sortByValue = $(this).attr('data-sort-by');
+  $grid.isotope({ sortBy: sortByValue });
+});
+
+
 });

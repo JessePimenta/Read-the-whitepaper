@@ -12,7 +12,8 @@
         <?php
     // please note that the jQuery library is not included in the file set
     echo js([
-      'assets/js/jquery-3.3.1.min.js',
+      'https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js',
+      'assets/js/isotope.pkgd.min.js',
       'assets/js/script.js'
     ]);
   ?>

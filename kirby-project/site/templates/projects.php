@@ -3,6 +3,14 @@
   <main class="main" role="main">
     <h1><?= $page->title()->html() ?></h1>
     <?= $page->text()->kirbytext() ?>
+    <div class="button-group sort-by-button-group">
+  <!-- <button data-sort-by="original-order">original order</button> -->
+  <button data-sort-by="name">Name</button>
+  <button data-sort-by="symbol">Trending</button>
+  <!-- <button data-sort-by="number">number</button>
+  <button data-sort-by="weight">weight</button>
+  <button data-sort-by="category">category</button> -->
+</div>
 
   <div class="wrap wide">
     <ul class="projects showcase grid gutter-1" data-page="<?= $page->url() ?>" data-limit="<?= $limit ?>">
@@ -14,7 +22,7 @@
                   <img src="<?= $thumb->url() ?>" alt="Thumbnail for <?= $project->title()->html() ?>" class="showcase-image" />
                 <?php endif ?>
                 <div class="showcase-caption">
-                  <h3 class="showcase-title"><?= $project->title()->html() ?></h3>
+                  <h2 class="showcase-title name"><?= $project->title()->html() ?></h2>
                 </div>
               </a>
           </li>

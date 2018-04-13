@@ -1034,6 +1034,15 @@ button.load-more {
     font-size: 14px;
     border: 2px solid;
     padding: 10px;
-    /* margin: 0 auto; */
-    margin-left: 36px;
+    /* margin: 0 auto !important; */
+    margin-left: 47%;
 }
+
+button {
+    padding: 10px;
+    border: 1px solid;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.button-group.sort-by-button-group {text-align: center;display: block;position: relative;}
