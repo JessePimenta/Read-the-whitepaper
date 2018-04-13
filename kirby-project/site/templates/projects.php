@@ -13,7 +13,7 @@
 </div>
 
   <div class="wrap wide">
-    <ul class="projects showcase grid gutter-1" data-page="<?= $page->url() ?>" data-limit="<?= $limit ?>">
+    <ul class="showcase grid gutter-1">
       <!-- Loop through the projects -->
         <?php foreach($projects as $project): ?>
           <li class="showcase-item column">
@@ -23,14 +23,13 @@
                 <?php endif ?>
                 <div class="showcase-caption">
                   <h2 class="showcase-title name"><?= $project->title()->html() ?></h2>
+                  <h4 class="tags"><?= $project->tags()->html() ?></h4>
                 </div>
               </a>
           </li>
         <?php endforeach ?>
     </ul>
   </div>
-    <button class="load-more">Load more</button>
-
   </main>
 
 <?php snippet('footer') ?>

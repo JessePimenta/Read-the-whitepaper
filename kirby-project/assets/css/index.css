@@ -57,9 +57,7 @@
   4.2 Blog Article
   4.3 Team
   4.4 Contact
-
 */
-
 /* =====  1 Global Rules & Definitions  ===================================== */
 
 h1#search-header {
@@ -452,6 +450,21 @@ h1 + .intro {
 
 /* -----  2.3 Grid & Layout  ------------------------------------------------ */
 
+.resp-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.resp-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+
 .grid {
   font-size: 0;
 }
@@ -504,6 +517,7 @@ h1 + .intro {
   .wrap.wide {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+      margin-right: 10%;
   }
 }
 
@@ -676,6 +690,13 @@ h1 + .intro {
 
 /* =====  3 Site Layout  ==================================================== */
 
+@media (max-width:475px) {
+  .grid.gutter-1 {
+    margin-left: -.375rem;
+    margin-right: 1.325rem;
+}
+}
+
 html {
   background: white;
   color: #383737;
@@ -705,9 +726,6 @@ html {
     font-size: 11px;
 }
   html {
-    /* We decrease the font-size a little-bit for tiny
-       screens. Because this stylesheet uses relative units
-       everywhere, everything scales nicely. */
     font-size: 1.25em;
   }
 }
@@ -752,10 +770,9 @@ body {
   .branding,
   .navigation {
     vertical-align: baseline;
-    width: 50%;
+    /* width: 50%; */
   }
 }
-
 /* -----  3.2 Menu  --------------------------------------------------------- */
 
 .menu {
@@ -911,7 +928,6 @@ body {
     width: 50%;
   }
 }
-
 @media all and (min-width: 62.5em) {
   .team-item {
     width: 25%;
@@ -1034,15 +1050,16 @@ button.load-more {
     font-size: 14px;
     border: 2px solid;
     padding: 10px;
-    /* margin: 0 auto !important; */
-    margin-left: 47%;
+    /* margin: 0 auto; */
+    margin-left: 36px;
+}
+
+.button-group.sort-by-button-group {
+    text-align: center;
 }
 
 button {
     padding: 10px;
     border: 1px solid;
-    margin: auto;
     margin-bottom: 20px;
 }
-
-.button-group.sort-by-button-group {text-align: center;display: block;position: relative;}

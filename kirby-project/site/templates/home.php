@@ -16,10 +16,16 @@
     </div>
 
     <section class="projects-section">
+      <div class="button-group sort-by-button-group">
+    <!-- <button data-sort-by="original-order">original order</button> -->
+    <button data-sort-by="name">Name</button>
+    <button data-sort-by="trending">Trending</button>
+  </div>
 
-      <div class="wrap wide">
-        <h2>Latest Whitepapers</h2>
+      <div class="wrap wide grid">
+        <!-- <h2>Latest Whitepapers</h2> -->
         <?php snippet('showcase', ['limit' => 100]) ?>
+
         <p class="projects-section-more"><a href="<?= page('projects')->url() ?>" class="btn">View All Whitepapers</a></p>
       </div>
 

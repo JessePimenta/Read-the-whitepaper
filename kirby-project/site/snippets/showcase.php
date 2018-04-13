@@ -15,9 +15,7 @@ Learn more about snippets and parameters at:
 https://getkirby.com/docs/templates/snippets
 
 */
-
 if(isset($limit)) $projects = $projects->limit($limit);
-
 ?>
 
 <ul class="showcase grid gutter-1">
@@ -30,7 +28,8 @@ if(isset($limit)) $projects = $projects->limit($limit);
             <img src="<?= $thumb->url() ?>" alt="Thumbnail for <?= $project->title()->html() ?>" class="showcase-image" />
           <?php endif ?>
           <div class="showcase-caption">
-            <h3 class="showcase-title"><?= $project->title()->html() ?></h3>
+            <h3 class="name showcase-title"><?= $project->title()->html() ?></h3>
+            <h4 class="trending scam topTen tags"><?= $project->tags()->html() ?></h4>
           </div>
         </a>
     </li>
