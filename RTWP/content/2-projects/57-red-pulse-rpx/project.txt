@@ -1,0 +1,18 @@
+Title: Red Pulse (RPX)
+
+----
+
+Text: 
+
+<script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
+<div class="coinmarketcap-currency-widget" data-currencyid="2112" data-base="USD"  data-secondary="BTC"></div>
+
+<iframe id="fred" style="border:1px solid #666CCC" title="PDF in an i-Frame" src="http://new.readthewhitepaper.com/content/whitepapers/57-red-pulse-rpx/redpulse-whitepaper-en.pdf" frameborder="1" scrolling="auto" height="1100px" width="850px" ></iframe>
+
+----
+
+Image: the-redpulse-coin-why-the-chinese-market-may-never-be-the-same-again-678x381.jpg
+
+----
+
+Tags: rpx whitepaper, rpx white paper, red pulse whitepaper, red pulse white paper,

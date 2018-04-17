@@ -1,12 +1,8 @@
-Title: Read the White Paper.
+Title: Home
 
 ----
 
-Intro: 
-
-The most robust collection of crypto whitepapers available on the web. 
-
-**Do your research!**
+Intro: Read the White Paper.
 
 ----
 

@@ -3,7 +3,7 @@
   <main class="main" role="main">
 
     <header class="wrap">
-      <h1><?= $page->title()->html() ?></h1>
+      <!-- <h1><?= $page->title()->html() ?></h1> -->
 
       <div class="intro text">
          <?= $page->intro()->kirbytext() ?>
@@ -16,11 +16,18 @@
     </div>
 
     <section class="projects-section">
-      <div class="button-group sort-by-button-group">
-    <!-- <button data-sort-by="original-order">original order</button> -->
-    <button data-sort-by="name">Name</button>
-    <button data-sort-by="trending">Trending</button>
+  <div class="button-group sort-by-button-group">
+    <button data-sort-by="original-order">Original Order</button>
+    <button data-sort-by="name">A-Z</button>
+    <!-- <button data-sort-by="trending">Trending</button> -->
   </div>
+  <div class="button-group filter-button-group" data-filter-group="trending">
+  <button data-filter="trending">Trending</button>
+  <button class="button" data-filter="*">Show All</button>
+  <!-- <button data-filter=".small">small</button>
+  <button data-filter=".wide">wide</button> -->
+</div>
+
 
       <div class="wrap wide grid">
         <!-- <h2>Latest Whitepapers</h2> -->

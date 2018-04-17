@@ -1,0 +1,18 @@
+Title: Gifto (GTO)
+
+----
+
+Text: 
+
+<script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
+<div class="coinmarketcap-currency-widget" data-currencyid="2289" data-base="USD"  data-secondary="BTC"></div>
+
+<iframe id="fred" style="border:1px solid #666CCC" title="PDF in an i-Frame" src="http://new.readthewhitepaper.com/content/whitepapers/59-gifto-gto/gifto_whitepaper_v2.0-20171204.pdf" frameborder="1" scrolling="auto" height="1100px" width="850px" ></iframe>
+
+----
+
+Image: gifto-gto.jpg
+
+----
+
+Tags: gifto whitepaper, gifto white paper, gto white paper, gto read the white paper, gto readthewhitepaper

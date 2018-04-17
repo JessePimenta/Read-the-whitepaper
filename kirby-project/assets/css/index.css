@@ -93,17 +93,19 @@ input[type="search"] {
     position: relative;
     margin: 0 auto !important;
     height: 33px;
-    font-family: 'Chivo';
+    font-family: 'IBMPlexMono-Regular', monospace;
     font-size: 1.15em;
+    color: #f8f8f2;
     font-weight: bold;
     padding: 12px;
+    background: transparent;
     /* border-radius: 15px; */
-    border: 1px solid darkgrey;
+    border-bottom: 1px solid #f8f8f2;
 }
 
 input[type="submit"] {
     font-size: 1.15em;
-    background: white;
+    background: #2a2e3a;
     width: 40px;
     /* background: black; */
     margin: 0 auto;
@@ -123,6 +125,7 @@ li.menu-item {
 /* -----  1.1 Font Definitions  --------------------------------------------- */
 @import url('https://fonts.googleapis.com/css?family=Space+Mono');
 @import url('https://fonts.googleapis.com/css?family=Chivo');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
 
 
 /* Montserrat */
@@ -131,6 +134,26 @@ li.menu-item {
   src: url(../fonts/montserrat-700.woff) format("woff");
   font-weight: 700;
   font-style: normal;
+}
+/* IBM Plex Mono Regular*/
+@font-face {
+  font-family: 'IBMPlexMono-Regular';
+  src: url(../fonts/IBMPlexMono-Regular.woff) format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+/* IBM Plex Mono SemiBold */
+@font-face {
+  font-family: 'IBMPlexMono-SemiBold';
+  src: url(../fonts/IBMPlexMono-SemiBold.woff) format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* IBM Plex Mono Bold */
+@font-face {
+  font-family: 'IBMPlexMono-Bold';
+  src: url(../fonts/IBMPlexMono-Bold.woff) format("woff");
 }
 
 @font-face {
@@ -196,16 +219,19 @@ p, ul, ol, figure, pre {
   font-size: inherit;
   line-height: inherit;
   margin: 0 0 1.5rem;
-  font-family: 'Chivo', sans-serif;
-, monospace;
+  font-family: 'IBMPlexMono-Regular', monospace;
 
+}
+
+.coinmarketcap-currency-widget {
+    margin-top: -20px;
 }
 
 /* Headings */
 h1, h2, h3 {
   /* font-family: Montserrat, Helvetica, Arial, sans-serif; */
   font-weight: 700;
-  font-family: 'Chivo', sans-serif;
+  font-family: 'IBMPlexMono-Bold', monospace;
 , monospace;
 
 }
@@ -238,7 +264,7 @@ a {
   color: inherit;
   text-decoration: none;
   border-bottom: 2px solid #71efac;
-  font-family: 'Chivo', sans-serif;
+  font-family: 'IBMPlexMono-Regular', monospace;
 , monospace;
 
 }
@@ -255,7 +281,7 @@ hr {
   text-align: center;
   margin-top: 3rem;
   margin-bottom: 1.5rem;
-  color: #272627;
+  color: #f8f8f2;
 }
 
 hr::before {
@@ -463,6 +489,9 @@ h1 + .intro {
     position: relative;
     overflow: hidden;
     padding-top: 56.25%;
+}
+ul.menu li:nth-child(2) {
+    display: none;
 }
 
 .grid {
@@ -698,8 +727,8 @@ h1 + .intro {
 }
 
 html {
-  background: white;
-  color: #383737;
+  background: #292c38;
+  color: #f8f8f2;
   font: normal 400 1.5em/1.5 "Vesper Libre", Georgia, serif;
   /* Always show the vertical scrollbar to prevent `jumps`
      of page content after navigating from a very short page
@@ -733,8 +762,8 @@ html {
 body {
   /* space for sticky footer */
   margin-bottom: 4.5rem;
-  font-family: Chivo;
-  background: white;
+  font-family: 'IBMPlexMono-Regular', monospace;
+  background: #282D37;
 }
 
 /* ----- 3.1  Header  ------------------------------------------------------- */
@@ -785,7 +814,7 @@ body {
 }
 
 .menu-item:not(:last-child)::after {
-  content: "⁄";
+  content: "/";
   display: inline-block;
   font-size: .75em;
   padding: 0 .2em;
@@ -865,7 +894,7 @@ body {
 /* -----  3.4 Main Content  ------------------------------------------------- */
 
 .main {
-  padding-top: 3rem;
+  padding-top: 2rem;
   padding-bottom: 1.5rem;
 }
 
@@ -874,14 +903,15 @@ body {
 /* -----  4.1 Homepage  ----------------------------------------------------- */
 
 .projects-section {
-  background: #ffffff;
-  margin-top: 3rem;
-  padding-top: 2.25rem;
+  background: #282b37;
+  margin-top: -0.5rem;
+  padding-top: 0.00rem;
   padding-bottom: .75rem;
 }
 
 .projects-section-more {
   text-align: center;
+  display: none;
 }
 
 /* ----- 4.2 Blog Article  -------------------------------------------------- */
@@ -1046,6 +1076,10 @@ body {
   }
 }
 
+h4.tags {
+    visibility: hidden;
+}
+
 button.load-more {
     font-size: 14px;
     border: 2px solid;
@@ -1054,6 +1088,11 @@ button.load-more {
     margin-left: 36px;
 }
 
+button:hover {
+    background: white;
+    color:  black;
+    transition: .3s;
+}
 .button-group.sort-by-button-group {
     text-align: center;
 }
@@ -1061,5 +1100,15 @@ button.load-more {
 button {
     padding: 10px;
     border: 1px solid;
+    margin-bottom: 20px;
+    background: none;
+    font-family: 'IBMPlexMono-Regular', monospace;
+    color: white;
+    outline:  none;
+}
+
+.button-group.filter-button-group {
+    position: relative;
+    text-align: center;
     margin-bottom: 20px;
 }

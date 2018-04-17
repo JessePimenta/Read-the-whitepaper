@@ -1,39 +1,40 @@
 $(function(){
 
-  var element = $('.projects');
-  var url     = element.data('page') + '.json';
-  var limit   = parseInt(element.data('limit'));
-  var offset  = limit;
-
-  $('.load-more').on('click', function(e) {
-
-    $.get(url, {limit: limit, offset: offset}, function(data) {
-
-      if(data.more === false) {
-        $('.load-more').hide();
-      }
-
-      element.children().last().after(data.html);
-
-      offset += limit;
-
-    });
-
-  });
-
-
   // init Isotope
   var $grid = $('.grid').isotope({
+    layoutMode: 'fitRows',
+    itemSelector: '.showcase-item',
     getSortData: {
       name: '.name',
-      trending: '.trending',
       category: '[data-category]',
-    }
+    },
+    filterTrending: function() {
+    // _this_ is the item element. Get text of element's .tags
+    var tags = $(this).find('.tags').text();
+    // return true to show, false to hide
+    return name.match( /trending$/ );
+  }
+
   });
+
+  var filterFns = {
+  // show if tags contains trending
+  filterTrending: function() {
+    var tags = $(this).find('tags').text();
+    return tags.match( /trending$/ );
+  }
+};
 
   $('.sort-by-button-group').on( 'click', 'button', function() {
   var sortByValue = $(this).attr('data-sort-by');
   $grid.isotope({ sortBy: sortByValue });
+});
+
+$('.filter-button-group').on( 'click', 'button', function() {
+  var filterValue = $(this).attr('data-filter');
+  // use filter function if value matches
+  filterValue = filterFns[ filterValue ] || filterValue;
+  $grid.isotope({ filter: filterValue });
 });
 
 
