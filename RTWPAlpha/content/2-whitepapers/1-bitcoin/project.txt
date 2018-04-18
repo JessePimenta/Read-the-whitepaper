@@ -1,0 +1,21 @@
+Title: Bitcoin (BTC)
+
+----
+
+Year: 2014
+
+----
+
+Text: 
+
+<script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script><div style=" max-height='300px' max-width='300px'" class="coinmarketcap-currency-widget" data-currency="bitcoin" data-base="USD" data-secondary="" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+
+<iframe id="fred" style="border:1px solid #666CCC" title="" src="http://new.readthewhitepaper.com/content/2-whitepapers/1-bitcoin/bitcoin.pdf" frameborder="1" scrolling="auto" height="1100px" width="850px" ></iframe>
+
+----
+
+Image: screen-shot-2018-01-02-at-1.46.06-pm.png
+
+----
+
+Tags: bitcoin, crypto, btc, topten

@@ -1,0 +1,18 @@
+Title: Storm (STORM)
+
+----
+
+Text: 
+
+<script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
+<div class="coinmarketcap-currency-widget" data-currencyid="2297" data-base="USD"  data-secondary="BTC"></div>
+
+<iframe id="fred" style="border:1px solid #666CCC" title="PDF in an i-Frame" src="http://new.readthewhitepaper.com/content/2-whitepapers/54-storm-storm/storm_token_white_paper_market_research_network_development_vfinal_.pdf" frameborder="1" scrolling="auto" height="1100px" width="850px" ></iframe>
+
+----
+
+Image: storm-tokens.jpg
+
+----
+
+Tags: storms, storm, storm whitepaper, storm whitepaper cryptocurrency, storm white paper

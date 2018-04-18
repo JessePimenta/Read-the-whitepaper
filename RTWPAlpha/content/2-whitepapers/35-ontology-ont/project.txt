@@ -1,0 +1,23 @@
+Title: Ontology (ONT)
+
+----
+
+Text: 
+
+<script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script><div style=" max-height='300px' max-width='300px'" class="coinmarketcap-currency-widget" data-currency="Ontology" data-base="USD" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+
+<iframe id="fred" style="border:1px solid #666CCC" title="" src="http://new.readthewhitepaper.com/content/2-whitepapers/35-ontology-ont/ontology-introductory-white-paper.pdf" frameborder="1" scrolling="auto" height="1100px" width="850px" ></iframe>
+
+Ecosystem Whitepaper
+<iframe id="fred" style="border:1px solid #666CCC" title="" src="http://new.readthewhitepaper.com/content/2-projects/35-ontology-ont/ontology-ecosystem-white-paper-en.pdf" frameborder="1" scrolling="auto" height="1100px" width="850px" ></iframe>
+
+Technical Whitepaper
+<iframe id="fred" style="border:1px solid #666CCC" title="" src="http://new.readthewhitepaper.com/content/2-projects/35-ontology-ont/ontology-technology-white-paper-en.pdf" frameborder="1" scrolling="auto" height="1100px" width="850px" ></iframe>
+
+----
+
+Image: ontology.jpg
+
+----
+
+Tags: ontology whitepaper, ontologywhitepaper, ontologycrypto, ontologycoin, ontology coin, ontology cpryto whitepaper

@@ -1,0 +1,18 @@
+Title: AdEx (ADX)
+
+----
+
+Text: 
+
+<script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
+<div class="coinmarketcap-currency-widget" data-currencyid="1768" data-base="USD"  data-secondary="BTC"></div>
+
+<iframe id="fred" style="border:1px solid #666CCC" title="PDF in an i-Frame" src="http://new.readthewhitepaper.com/content/2-whitepapers/58-adex-adx/adex-whitepaper-v.7.pdf" frameborder="1" scrolling="auto" height="1100px" width="850px" ></iframe>
+
+----
+
+Image: adex-network-logo.jpg
+
+----
+
+Tags: adex whitepaper, adx whitepaper, adx white paper, adex white paper

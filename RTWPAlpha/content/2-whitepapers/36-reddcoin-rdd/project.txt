@@ -1,0 +1,17 @@
+Title: ReddCoin (RDD)
+
+----
+
+Text: 
+
+<script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script><div style=" max-height='300px' max-width='300px'" class="coinmarketcap-currency-widget" data-currency="reddcoin" data-base="USD" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>
+
+<iframe id="fred" style="border:1px solid #666CCC" title="" src="http://new.readthewhitepaper.com/content/2-whitepapers/36-reddcoin-rdd/posv_reddcoin.pdf" frameborder="1" scrolling="auto" height="1100px" width="850px" ></iframe>
+
+----
+
+Image: gyad9tm.png
+
+----
+
+Tags: reddcoin, reddcoin whitepaper, reddcoin whitepaper crypto, reddcoinwhitepaper, cryptowhitepaperreddcoin
