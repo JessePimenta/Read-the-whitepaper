@@ -3,7 +3,7 @@ title: Project
 files:
   sortable: true
 
-pages: false
+pages: true
 
 fields:
   title:
@@ -22,5 +22,3 @@ fields:
   tags:
   	label: Tags
   	type: text
-  	
-	

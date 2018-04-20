@@ -34,6 +34,15 @@ if(isset($limit)) $projects = $projects->limit($limit);
         </a>
     </li>
 
+    <li>
+      <a href="<?= $project->url() ?>" class="showcase-link">
+        <div class="showcase-caption">
+          <h3 class="name showcase-title"><?= $project->title()->html() ?></h3>
+          <h4 class="tags"><?= $project->tags()->html() ?></h4>
+        </div>
+      </a>
+    </li>
+
   <?php endforeach ?>
 <!-- added for change -->
 </ul>

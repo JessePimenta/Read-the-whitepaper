@@ -29,6 +29,7 @@
   <button data-filter=".wide">wide</button> -->
 </div>
 
+<input id='quicksearch' class='quicksearch' type="search" name="q" placeholder="Search for a whitepaper..." value="<?php echo esc($query) ?>">
 
       <div class="wrap wide grid">
         <?php snippet('showcase', ['limit' => 500]) ?>

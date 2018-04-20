@@ -1,4 +1,5 @@
 title: Site
+pages: true
 
 fields:
   title:
@@ -12,7 +13,7 @@ fields:
   description:
     label: Description
     type:  textarea
-    
+
   copyright:
     label: Copyright
     type:  textarea
